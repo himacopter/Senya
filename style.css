@@ -1,0 +1,66 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    /* Forces light pink even if JS tries to override it later */
+    background-color: #FADADD !important; 
+    transition: background-color 0.5s ease;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Changed from height to min-height for long letters */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#image-container img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#question {
+    font-family: 'Sacramento', cursive;
+    font-size: 52px;
+}
+
+#options {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Sacramento', cursive;
+    background-color: #FB607F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Styles for the letter card */
+#personal-letter {
+    margin-top: 20px;
+    padding: 30px;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    color: #444;
+    line-height: 1.6;
+    border: 1px solid #ffc1e3;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
