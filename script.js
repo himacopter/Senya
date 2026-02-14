@@ -63,8 +63,9 @@ function displayCatHeart() {
             <p>
                 We made it through another year together and I just want to say that I'm so so proud of the woman you've become. 
                 We've made SO many beautiful memories and taken so many cute photos this year that I just can't wait for what's in store for us
-                next year. I'm truly blessed to have such a lovely girlfriend that is always cherishing and loving me. I hope you like this lil thing thang 
-                I put together! I love you Senyacopter &lt;3333333 Here's to many many more Valentine's together c:
+                next year. I'm truly blessed to have such a lovely girlfriend that is always cherishing and loving me. I've evolved into a much better person 
+                and it's all because of you. I hope you like this lil thing thang 
+                I put together 8D I love you Senyacopter <3333 Here's to many many more Valentine's together c:
             </p>
             <p>Happy Valentine's Day!</p>
             <div style="margin-top: 15px; font-weight: bold;">Love, Logan</div>
